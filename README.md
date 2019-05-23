@@ -17,9 +17,15 @@
 
 * 학습과정을 보기 위해 random Z값이 아닌 고정된 Z값으로 생성한 이미지도 출력.
 
-| epoch | result | result |
+| epoch | result | result(fixed z) |
 |:---:|:---:|:---:|
 | 0 | ![epoch0](./images/epoch0.png) | ![epoch0](./images/epoch0_fix.png) |
 | 100 | ![epoch100](./images/epoch50.png) | ![epoch0](./images/epoch50_fix.png) |
 | 100 | ![epoch100](./images/epoch100.png) | ![epoch0](./images/epoch100_fix.png) |
 | 200 | ![epoch200](./images/epoch200.png) | ![epoch0](./images/epoch200_fix.png) |
+
+* 단순 MLP(fully connected layer만 사용)가 아닌 convolution을 사용한 DCGAN을 사용하면 조금이나마 자연스러운 결과를 가져온다.
+
+![DCGAN](./images/dcgan.png)
+
+* 사람의 얼굴은 MLP에서 처리하기엔 너무 복잡한 DATA를 가지고 있는 듯 하다.

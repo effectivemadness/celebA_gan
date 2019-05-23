@@ -18,7 +18,7 @@
 * 학습과정을 보기 위해 random Z값이 아닌 고정된 Z값으로 생성한 이미지도 출력.
 
 | epoch | result | result |
-|:---:|:---:|:---:|:---:|
+|:---:|:---:|:---:|
 | 0 | ![epoch0](./images/epoch0.png) | ![epoch0](./images/epoch0_fix.png) |
 | 100 | ![epoch100](./images/epoch50.png) | ![epoch0](./images/epoch50_fix.png) |
 | 100 | ![epoch100](./images/epoch100.png) | ![epoch0](./images/epoch100_fix.png) |
